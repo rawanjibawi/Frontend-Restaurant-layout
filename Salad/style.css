@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&family=Montserrat:wght@100&family=Open+Sans:ital@1&family=Poppins&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lobster&family=Montserrat:wght@100&family=Open+Sans+Condensed:wght@300&family=Open+Sans:ital@1&family=Poppins&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&family=Open+Sans:ital@1&family=Poppins&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    height: 70vh;
+    background-image: url('../images/salad_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .text{
+    position: relative;
+    top: 30%;
+    left: 5%;
+    width: 40%;
+    /* border: 2px solid blue; */
+    float:left;
+    padding: 20px;
+    color: white;
+}
+.header .text h1 {
+    font-size: 48px;
+    color: #fef8dd;
+    margin-bottom: 10px;
+}
+
+.header .text p {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffe7c7;
+}
+/* menu */
+.menu{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+}
+.menu div{
+    width: 100%;
+    /* background-color: aqua; */
+    margin: 10px;
+}
+
+
+
+/* break */
+.menu-item {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item-image {
+    margin: 0px 20px;
+    max-width: 200px;
+    height: auto;
+}
+
+.box {
+    padding: 20px;
+    background-color: #f4f1ea;
+}
+
+.description {
+    flex: 1;
+}
+
+.description h1 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.description p {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #3e2723;
+}
+
+.order-button {
+    background-color: #954535;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #29333D;
+}

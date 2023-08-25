@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rawan Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <!--Home section-->
+    <div class="home">
+        <header>
+            <p class="logo">Rawan <br><span style="color: gold; font-family: monospace;">Restaurant</span></p>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <div class="dropdown">
+                    <li><a href="#Home">Menu &nbsp; <span class="character">&#x25BC;</span></a></li>
+                    <div class="dropdown-content">
+                        <p class="hover0"><a href="../Appetizers/home.html">appetizers</a></p><hr/>
+                        <p class="hover1"><a href="../Salad/home.html">Salad</a></p><hr/>
+                        <!-- <p class="hover2"><a href="../Salad/home.html">Main Dish</a></p><hr/> -->
+                        <!-- <p class="hover3"><a href="../Salad/home.html">Pizza</a></p><hr/> -->
+                        <p class="hover4"><a href="../Drinks/home.html">Drinks</a></p><hr/>
+                    </div>
+                </div>
+                    <!-- <div class="dropdown">
+                        <li><a href="#Home">Features &nbsp; <span class="character">&#x25BC;</span></a></li>
+                    <div class="dropdown-content">
+                        <p class="hover5">Range of beverages</p><hr/>
+                        <p class="hover6">Hospitable Atmosphere</p><hr>
+                        <p class="hover7">Goode Service</p><hr/>
+                        <p class="hover8">Hygiene and Cleanliness</p><hr/>
+                    </div>
+                    </div> -->
+                <li><a href="#popular-dishes">Popular Dishes</a></li>
+                <button style="border: 2px solid white;" onclick="window.location.href = '../reservation/reservation.html'">Reservation</button>
+    
+            </ul>
+            <div class="burger nav-active">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </header>
+        <section id="title"> 
+            <p class="welcome">Welcome to</p>
+            <p class="rawan">Rawan<span class="restaurant">Restaurant</span></p>
+            <p class="text">Making the delicious premium food since 2030 book online or call (+961)81205125</p>
+        </section>
+    </div>
+    <!-- Food Section -->
+    <h1 style="margin-top: 20px; text-align: center; color: #954535;">Most Popular Dishes</h1>
+    <section class="food" id="popular-dishes">
+        
+        <div class="menu">
+            <h3>fish & chips</h3>
+            <img src="../images/fish&chips.jpg" alt="fish & chips" width="350px" height="230px" >
+            <div class="desc" style="height: 100px;">
+                <div class="price" style="width: 40px; height: 30px; background-color: #954535; color: aliceblue;">12$</div>
+                <a href="#">Plan Your Meal</a>
+            </div> 
+        </div>
+        <div class="menu">
+            <h3>mac & cheese</h3>
+            <img src="../images/Mac_cheese.jpg" alt="fish & chips" width="350px" height="230px" >
+            <div class="desc" style="height: 100px;">
+                <div class="price" style="width: 40px; height: 30px; background-color: #954535; color: aliceblue;">10$</div>
+                <a href="#">Plan Your Meal</a>
+            </div> 
+        </div>
+        <div class="menu">
+            <h3>Caesar Salad</h3>
+            <img src="../images/Caesar_Salad.jpg" alt="fish & chips" width="350px" height="230px" >
+            <div class="desc" style="height: 100px;">
+                <div class="price" style="width: 40px; height: 30px; background-color: #954535; color: aliceblue;">25$</div>
+                <a href="#">Plan Your Meal</a>
+            </div> 
+        </div>
+        <div class="menu">
+            <h3>Classic Burger</h3>
+            <img src="../images/classic_burger.jpg" alt="fish & chips" width="350px" height="230px" >
+            <div class="desc" style="height: 100px;">
+                <div class="price" style="width: 40px; height: 30px; background-color: #954535; color: aliceblue;">22$</div>
+                <a href="#">Plan Your Meal</a>
+            </div> 
+        </div>
+        <div class="menu">
+            <h3>Italian Classic Pizza</h3>
+            <img src="../images/italian_classic_pizza.jpg" alt="fish & chips" width="350px" height="230px">
+            <div class="desc" style="height: 100px;">
+                <div class="price" style="width: 40px; height: 30px; background-color: #954535; color: aliceblue;">18$</div>
+                <a href="#">Plan Your Meal</a>
+            </div> 
+        </div>
+        <div class="menu">
+            <h3>french fries & cheese</h3>
+            <img src="../images/fries_cheese.jpg" alt="fish & chips" width="350px" height="230px">
+            <div class="desc" style="height: 100px;">
+                <div class="price" style="width: 40px; height: 30px; background-color: #954535; color: aliceblue;">8$</div>
+                <a href="#">Plan Your Meal</a>
+            </div> 
+        </div>
+    </section>
+    <section class="reservation">
+        <div class="container">
+            <div class="text-container">
+                <p class="reservation-title" style="color: #E5E7EB; font-weight: 800; font-size: 18px;">Pre-Order Your Meal Now!</p>
+                <p class="reservation-description" style="color: #E5E7EB; font-size: 14px;">Reserve your place and order your meal in advance to enjoy freshly prepared food upon your arrival.</p>
+            </div>
+            <div class="reservation-button" style="margin-left: auto;">
+                <button class="button" onclick="window.location.href = '../reservation/reservation.html'">Reserve Your Seat Now</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
